@@ -1,0 +1,38 @@
+INVESTIGATION PRINCIPLES
+
+1. Evidence Requirement
+Every finding presented to an investigator must be traceable to one or
+more specific transaction IDs from the actual uploaded data. The system
+must never fabricate or imply evidence that is not present in the
+supplied transaction history.
+
+2. Customer-Specific Baseline
+Before any transaction can be judged "unusual", the customer's own
+historical behavior must be established first: typical amounts, typical
+hours, typical channels, and known beneficiaries. Global thresholds
+alone are not sufficient because normal behavior varies significantly
+between customers.
+
+3. Separation of Fact and Interpretation
+Every explanation provided to an investigator should distinguish:
+  - Observed Fact: a plain statement of what is in the data
+    (e.g. "TXN1042 has an amount of Rs 75,000").
+  - Rule Finding: which deterministic rule fired and why
+    (e.g. "R01 triggered because this exceeds the customer's typical
+    range").
+  - Interpretation: what this might mean in context.
+  - Recommendation: what the investigator should check next.
+  - Uncertainty: what information is missing or cannot be determined
+    from the supplied data.
+
+4. AI Limitations
+The AI assistant (Gemini) is used only for language reasoning,
+explanation and summarization. It does not calculate statistics, does
+not decide which rules fire, and does not determine review priority
+scores. All numerical decisions are made deterministically in Python
+before the AI ever sees the case.
+
+5. Human Review Requirement
+The system never states that fraud has occurred. It flags, explains,
+connects, and recommends. The final judgement on any case always
+belongs to a qualified human investigator.

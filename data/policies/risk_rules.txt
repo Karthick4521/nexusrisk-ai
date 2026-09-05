@@ -1,0 +1,46 @@
+RISK RULE DEFINITIONS
+
+R01 - Unusually Large Transaction
+A transaction whose amount is substantially above the customer's own
+historical pattern, measured using robust statistics (median, percentile,
+interquartile range) rather than a single global threshold. This rule is
+customer-specific: a transaction that is large for one customer may be
+entirely routine for another.
+
+R02 - Transaction Burst
+Multiple high-value transactions occurring within a short time window
+(default 24 hours). Bursts are notable because they compress activity
+that would otherwise be spread across weeks or months into a single day.
+
+R03 - New Beneficiary
+A transaction involving a beneficiary or payee that does not appear
+anywhere in the customer's historical transaction data. New beneficiaries
+are not inherently risky, but combined with other signals they raise the
+importance of verifying the transaction's purpose.
+
+R04 - Odd-Hour Activity
+A transaction occurring between 12:00 AM and 5:00 AM. This is a timing
+signal only. Many legitimate transactions occur at odd hours (scheduled
+payments, automated transfers, shift workers, different time zones).
+Odd-hour activity must never, by itself, be described as fraudulent.
+
+R05 - Customer Behavior Deviation
+Recent activity that differs materially from the customer's established
+behavior across multiple dimensions simultaneously (amount, channel,
+timing, beneficiary). A single large-but-explicable purchase should not
+trigger this rule; at least two deviation dimensions must be present
+together, since single-dimension changes are common and usually benign.
+
+R06 - Related Transaction Pattern
+A set of transactions that are connected to each other, based on close
+timing, shared beneficiary, or shared characteristics, where each of
+those transactions has ALSO been independently flagged by another rule.
+This rule links existing findings together; it does not independently
+create new findings from raw proximity alone, since that produces false
+positives on routine repeat payments to known payees.
+
+SCORING
+Each rule contributes a fixed number of points to a transparent "Review
+Priority Score". This score is never described as a probability of
+fraud. It is a triage aid that helps investigators prioritize which
+cases to examine first.

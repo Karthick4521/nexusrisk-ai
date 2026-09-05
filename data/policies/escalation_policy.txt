@@ -1,0 +1,34 @@
+ESCALATION POLICY
+
+Review Priority Categories
+  LOW (score 0-24): No significant risk signals identified. No escalation
+  recommended based on the supplied transaction history alone.
+
+  MEDIUM (score 25-54): One or more risk signals identified. Recommended
+  for standard-queue investigator review during normal case processing.
+
+  HIGH (score 55-89): Multiple risk signals identified, potentially
+  including large transactions, bursts, or behavior deviation. Recommended
+  for prioritized investigator review.
+
+  HIGH PRIORITY HUMAN REVIEW (score 90+): A significant cluster of risk
+  signals has been identified across multiple rules, often including
+  related transaction patterns (R06). This case should be escalated to a
+  human investigator promptly. This category is a triage priority signal
+  only - it is not a finding of fraud.
+
+Escalation Conditions
+  - Any case reaching HIGH or HIGH_PRIORITY_HUMAN_REVIEW must clearly
+    display the Human Review Required notice.
+  - If Gemini or the local policy retrieval component fails for any
+    reason, deterministic findings must still be displayed in full;
+    escalation categorization does not depend on the AI layer.
+  - Missing or insufficient information must be explicitly disclosed to
+    the investigator rather than silently ignored or assumed.
+
+AI Limitations and Safety
+  - The system must never state that fraud has occurred.
+  - The system must never fabricate evidence, transactions, or
+    beneficiaries not present in the supplied data.
+  - Uncertainty must always be stated explicitly when information is
+    insufficient to reach a confident interpretation.

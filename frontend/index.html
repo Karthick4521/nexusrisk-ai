@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NexusRisk AI — Transaction Risk Investigation Assistant</title>
+<link rel="stylesheet" href="/static/styles.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.0/chart.umd.min.js"></script>
+</head>
+<body>
+
+<header class="app-header">
+  <div class="header-left">
+    <div class="logo-mark">NR</div>
+    <div>
+      <h1>NexusRisk AI</h1>
+      <p class="subtitle">Transaction Risk Investigation Assistant</p>
+    </div>
+  </div>
+  <div class="header-actions">
+    <label class="btn btn-secondary" for="csvUpload">Upload CSV</label>
+    <input type="file" id="csvUpload" accept=".csv" hidden />
+    <button class="btn btn-secondary" id="loadNormalBtn">Load Normal Case</button>
+    <button class="btn btn-primary" id="loadDifficultBtn">Load Difficult Case</button>
+  </div>
+</header>
+
+<main id="app">
+  <section id="emptyState" class="empty-state">
+    <div class="empty-card">
+      <h2>No case loaded</h2>
+      <p>Upload a customer transaction CSV, or load one of the demo cases to begin an investigation.</p>
+      <p class="empty-hint">Required columns: date, amount, channel, and description or payee.</p>
+    </div>
+  </section>
+
+  <section id="resultsState" class="hidden">
+
+    <div class="grid grid-top">
+      <div class="card case-summary">
+        <h3>Case Summary</h3>
+        <div class="kv-grid">
+          <div class="kv"><span class="k">Customer ID</span><span class="v" id="customerId">-</span></div>
+          <div class="kv"><span class="k">Investigation ID</span><span class="v" id="investigationId">-</span></div>
+          <div class="kv"><span class="k">Transactions Analyzed</span><span class="v" id="txnCount">-</span></div>
+          <div class="kv"><span class="k">Risk Signals</span><span class="v" id="riskSignalCount">-</span></div>
+          <div class="kv"><span class="k">Review Priority</span><span class="v"><span id="priorityBadge" class="badge">-</span></span></div>
+        </div>
+        <div id="validationMessages" class="validation-box hidden"></div>
+      </div>
+
+      <div class="card baseline-card">
+        <h3>Customer Baseline</h3>
+        <div class="kv-grid">
+          <div class="kv"><span class="k">Median Transaction</span><span class="v" id="baseMedian">-</span></div>
+          <div class="kv"><span class="k">Typical Range</span><span class="v" id="baseRange">-</span></div>
+          <div class="kv"><span class="k">Typical Active Hours</span><span class="v" id="baseHours">-</span></div>
+          <div class="kv"><span class="k">Common Channel</span><span class="v" id="baseChannel">-</span></div>
+          <div class="kv"><span class="k">Known Beneficiaries</span><span class="v" id="baseBeneficiaries">-</span></div>
+          <div class="kv"><span class="k">Avg Daily Transactions</span><span class="v" id="baseDaily">-</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid grid-two">
+      <div class="card">
+        <h3>Transaction Timeline</h3>
+        <canvas id="timelineChart" height="140"></canvas>
+      </div>
+      <div class="card">
+        <h3>Normal vs Flagged Amounts</h3>
+        <canvas id="compareChart" height="140"></canvas>
+      </div>
+    </div>
+
+    <div class="card" id="riskSignalsCard">
+      <h3>Risk Signals</h3>
+      <div id="riskSignalsList" class="risk-signal-list"></div>
+    </div>
+
+    <div class="grid grid-two">
+      <div class="card">
+        <h3>Evidence Chain</h3>
+        <div id="evidenceChainTree" class="evidence-tree"></div>
+      </div>
+      <div class="card">
+        <h3 id="evidenceViewerTitle">Transaction Evidence</h3>
+        <div id="evidenceViewer" class="evidence-viewer-empty">Select a transaction ID in the Evidence Chain to inspect it.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <h3>Gemini Investigation Summary <span id="aiBadge" class="ai-badge"></span></h3>
+      <p id="aiSummary" class="ai-summary">-</p>
+      <div class="grid grid-two">
+        <div>
+          <h4>Investigator Focus</h4>
+          <ul id="investigatorFocus" class="focus-list"></ul>
+        </div>
+        <div>
+          <h4>Uncertainties</h4>
+          <ul id="uncertaintiesList" class="focus-list"></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="card human-review-card">
+      <h3>⚠ Human Review Required</h3>
+      <p>NexusRisk AI identifies and explains potential transaction risk signals. It does not determine
+      whether fraud has occurred. Final judgement belongs to a qualified human investigator.</p>
+      <button class="btn btn-primary" id="generateReportBtn">Generate Investigation Report</button>
+    </div>
+
+    <div class="card hidden" id="reportCard">
+      <h3>Investigation Report</h3>
+      <pre id="reportText"></pre>
+    </div>
+
+  </section>
+</main>
+
+<div id="loadingOverlay" class="loading-overlay hidden">
+  <div class="spinner"></div>
+  <p>Analyzing transaction history…</p>
+</div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+transaction_id,date,description,payee,amount,channel,transaction_type,beneficiary_id
+TXN00001,2026-04-01 12:15:00,Payment to Mobile Recharge,Mobile Recharge,1567.39,Card,debit,BNF006
+TXN00002,2026-04-02 10:00:00,Salary Credit,Employer Pvt Ltd,65000.0,Net Banking,salary,BNF000
+TXN00003,2026-04-02 17:27:00,Payment to Grocery Mart,Grocery Mart,351.82,Card,debit,BNF001
+TXN00004,2026-04-02 11:32:00,Payment to City Utilities,City Utilities,3972.82,Net Banking,debit,BNF002
+TXN00005,2026-04-02 19:41:00,Payment to City Utilities,City Utilities,4603.41,UPI,debit,BNF002
+TXN00006,2026-04-03 20:55:00,Payment to Landlord Co-op,Landlord Co-op,191.27,Card,debit,BNF003
+TXN00007,2026-04-03 14:21:00,Payment to Mobile Recharge,Mobile Recharge,1914.48,Card,debit,BNF006
+TXN00008,2026-04-03 13:06:00,Payment to Streaming Service,Streaming Service,738.94,Card,debit,BNF007
+TXN00009,2026-04-04 12:51:00,Payment to Fuel Station,Fuel Station,425.91,UPI,debit,BNF005
+TXN00010,2026-04-04 09:59:00,Payment to Fuel Station,Fuel Station,2553.69,Net Banking,debit,BNF005
+TXN00011,2026-04-04 11:00:00,Monthly Rent,Landlord Co-op,18000.0,Net Banking,debit,BNF003
+TXN00012,2026-04-05 21:23:00,Payment to Fuel Station,Fuel Station,3816.19,Card,debit,BNF005
+TXN00013,2026-04-05 18:14:00,Payment to Grocery Mart,Grocery Mart,5058.98,Card,debit,BNF001
+TXN00014,2026-04-05 11:55:00,Payment to Streaming Service,Streaming Service,791.36,Card,debit,BNF007
+TXN00015,2026-04-06 13:22:00,Payment to City Utilities,City Utilities,1480.37,Card,debit,BNF002
+TXN00016,2026-04-06 18:41:00,Payment to Mobile Recharge,Mobile Recharge,603.41,Card,debit,BNF006
+TXN00017,2026-04-07 15:24:00,Payment to City Utilities,City Utilities,1864.17,Net Banking,debit,BNF002
+TXN00018,2026-04-08 20:49:00,Payment to Streaming Service,Streaming Service,505.21,Card,debit,BNF007
+TXN00019,2026-04-08 13:25:00,Payment to Streaming Service,Streaming Service,1850.15,Card,debit,BNF007
+TXN00020,2026-04-10 11:41:00,Payment to Landlord Co-op,Landlord Co-op,3320.12,UPI,debit,BNF003
+TXN00021,2026-04-10 12:08:00,Payment to City Utilities,City Utilities,1716.08,Net Banking,debit,BNF002
+TXN00022,2026-04-10 12:47:00,Payment to Fuel Station,Fuel Station,3862.12,Net Banking,debit,BNF005
+TXN00023,2026-04-11 16:31:00,Payment to City Utilities,City Utilities,727.27,Card,debit,BNF002
+TXN00024,2026-04-13 18:27:00,Payment to Streaming Service,Streaming Service,3937.2,UPI,debit,BNF007
+TXN00025,2026-04-14 12:35:00,Payment to Fuel Station,Fuel Station,5615.95,Card,debit,BNF005
+TXN00026,2026-04-14 19:07:00,Payment to Mobile Recharge,Mobile Recharge,4478.86,Net Banking,debit,BNF006
+TXN00027,2026-04-17 10:29:00,Payment to Food Court,Food Court,170.61,Card,debit,BNF004
+TXN00028,2026-04-17 20:11:00,Payment to Fuel Station,Fuel Station,3373.78,Card,debit,BNF005
+TXN00029,2026-04-19 17:12:00,Payment to Fuel Station,Fuel Station,1120.53,Card,debit,BNF005
+TXN00030,2026-04-19 20:59:00,Payment to Fuel Station,Fuel Station,3517.75,Card,debit,BNF005
+TXN00031,2026-04-19 13:31:00,Payment to Fuel Station,Fuel Station,273.68,Card,debit,BNF005
+TXN00032,2026-04-22 17:05:00,Payment to City Utilities,City Utilities,693.9,UPI,debit,BNF002
+TXN00033,2026-04-25 18:30:00,Payment to City Utilities,City Utilities,6162.49,Card,debit,BNF002
+TXN00034,2026-04-26 11:59:00,Payment to Food Court,Food Court,3574.53,Card,debit,BNF004
+TXN00035,2026-04-26 12:25:00,Payment to Mobile Recharge,Mobile Recharge,6469.2,Card,debit,BNF006
+TXN00036,2026-04-26 16:28:00,Payment to Food Court,Food Court,918.38,Card,debit,BNF004
+TXN00037,2026-04-27 16:14:00,Payment to Fuel Station,Fuel Station,3886.59,Card,debit,BNF005
+TXN00038,2026-04-28 11:04:00,Payment to Grocery Mart,Grocery Mart,5899.42,Card,debit,BNF001
+TXN00039,2026-04-28 16:15:00,Payment to Grocery Mart,Grocery Mart,1918.33,UPI,debit,BNF001
+TXN00040,2026-04-28 16:08:00,Payment to City Utilities,City Utilities,4743.29,Net Banking,debit,BNF002
+TXN00041,2026-04-29 15:51:00,Payment to Streaming Service,Streaming Service,2734.83,Card,debit,BNF007
+TXN00042,2026-04-30 14:26:00,Payment to Landlord Co-op,Landlord Co-op,3115.61,Card,debit,BNF003
+TXN00043,2026-04-30 18:41:00,Payment to Mobile Recharge,Mobile Recharge,774.95,UPI,debit,BNF006
+TXN00044,2026-05-02 10:00:00,Salary Credit,Employer Pvt Ltd,65000.0,Net Banking,salary,BNF000
+TXN00045,2026-05-03 16:28:00,Payment to City Utilities,City Utilities,1040.16,Card,debit,BNF002
+TXN00046,2026-05-04 09:28:00,Payment to Streaming Service,Streaming Service,5280.94,Net Banking,debit,BNF007
+TXN00047,2026-05-04 11:00:00,Monthly Rent,Landlord Co-op,18000.0,Net Banking,debit,BNF003
+TXN00048,2026-05-05 21:00:00,Payment to Fuel Station,Fuel Station,6303.13,Card,debit,BNF005
+TXN00049,2026-05-05 14:31:00,Payment to City Utilities,City Utilities,3206.63,UPI,debit,BNF002
+TXN00050,2026-05-05 10:24:00,Payment to Grocery Mart,Grocery Mart,163.69,UPI,debit,BNF001
+TXN00051,2026-05-06 14:44:00,Payment to Landlord Co-op,Landlord Co-op,6228.97,Net Banking,debit,BNF003
+TXN00052,2026-05-06 19:31:00,Payment to Mobile Recharge,Mobile Recharge,1132.96,Card,debit,BNF006
+TXN00053,2026-05-07 19:34:00,Payment to Fuel Station,Fuel Station,537.08,Card,debit,BNF005
+TXN00054,2026-05-08 16:58:00,Payment to Food Court,Food Court,5564.77,Card,debit,BNF004
+TXN00055,2026-05-08 16:05:00,Payment to Grocery Mart,Grocery Mart,5556.03,Card,debit,BNF001
+TXN00056,2026-05-08 09:43:00,Payment to Fuel Station,Fuel Station,5622.55,UPI,debit,BNF005
+TXN00057,2026-05-09 17:38:00,Payment to City Utilities,City Utilities,402.36,Card,debit,BNF002
+TXN00058,2026-05-09 18:37:00,Payment to Food Court,Food Court,3739.19,Card,debit,BNF004
+TXN00059,2026-05-09 11:42:00,Payment to Landlord Co-op,Landlord Co-op,4697.82,Card,debit,BNF003
+TXN00060,2026-05-10 18:19:00,Payment to Mobile Recharge,Mobile Recharge,3053.38,Card,debit,BNF006
+TXN00061,2026-05-11 09:04:00,Payment to Fuel Station,Fuel Station,3563.98,Net Banking,debit,BNF005
+TXN00062,2026-05-11 10:59:00,Payment to Landlord Co-op,Landlord Co-op,2366.21,Card,debit,BNF003
+TXN00063,2026-05-11 13:18:00,Payment to City Utilities,City Utilities,1151.69,Net Banking,debit,BNF002
+TXN00064,2026-05-13 08:42:00,Payment to Fuel Station,Fuel Station,5338.61,Card,debit,BNF005
+TXN00065,2026-05-13 09:56:00,Payment to Mobile Recharge,Mobile Recharge,1002.75,Card,debit,BNF006
+TXN00066,2026-05-13 19:35:00,Payment to Grocery Mart,Grocery Mart,1137.09,Card,debit,BNF001
+TXN00067,2026-05-14 11:43:00,Payment to Landlord Co-op,Landlord Co-op,4177.41,Card,debit,BNF003
+TXN00068,2026-05-14 15:16:00,Payment to Fuel Station,Fuel Station,5898.89,Card,debit,BNF005
+TXN00069,2026-05-14 18:27:00,Payment to Grocery Mart,Grocery Mart,5416.36,Card,debit,BNF001
+TXN00070,2026-05-15 12:10:00,Payment to Mobile Recharge,Mobile Recharge,4856.82,Net Banking,debit,BNF006
+TXN00071,2026-05-17 19:57:00,Payment to Grocery Mart,Grocery Mart,1096.49,Card,debit,BNF001
+TXN00072,2026-05-19 10:02:00,Payment to Food Court,Food Court,2107.44,Card,debit,BNF004
+TXN00073,2026-05-21 09:22:00,Payment to Mobile Recharge,Mobile Recharge,5103.74,UPI,debit,BNF006
+TXN00074,2026-05-25 20:11:00,Payment to Streaming Service,Streaming Service,5746.99,Card,debit,BNF007
+TXN00075,2026-05-26 14:51:00,Payment to Streaming Service,Streaming Service,4403.91,Card,debit,BNF007
+TXN00076,2026-05-26 10:50:00,Payment to Landlord Co-op,Landlord Co-op,4603.12,UPI,debit,BNF003
+TXN00077,2026-05-29 12:52:00,Payment to Landlord Co-op,Landlord Co-op,5200.44,Card,debit,BNF003
+TXN00078,2026-05-29 08:42:00,Payment to City Utilities,City Utilities,1376.37,Card,debit,BNF002
+TXN00079,2026-05-30 12:22:00,Payment to Streaming Service,Streaming Service,4223.41,UPI,debit,BNF007
+TXN00080,2026-05-31 08:07:00,Payment to Landlord Co-op,Landlord Co-op,5719.19,Card,debit,BNF003
+TXN00081,2026-05-31 17:16:00,Payment to City Utilities,City Utilities,392.93,Net Banking,debit,BNF002
+TXN00082,2026-05-31 13:46:00,Payment to Food Court,Food Court,5143.82,UPI,debit,BNF004
+TXN00083,2026-06-01 10:00:00,Salary Credit,Employer Pvt Ltd,65000.0,Net Banking,salary,BNF000
+TXN00084,2026-06-01 14:57:00,Payment to Grocery Mart,Grocery Mart,3811.33,Card,debit,BNF001
+TXN00085,2026-06-01 19:27:00,Payment to Grocery Mart,Grocery Mart,160.74,Net Banking,debit,BNF001
+TXN00086,2026-06-01 19:47:00,Payment to Mobile Recharge,Mobile Recharge,4830.19,Card,debit,BNF006
+TXN00087,2026-06-02 13:39:00,Payment to Mobile Recharge,Mobile Recharge,2143.36,Card,debit,BNF006
+TXN00088,2026-06-03 11:00:00,Monthly Rent,Landlord Co-op,18000.0,Net Banking,debit,BNF003
+TXN00089,2026-06-04 14:20:00,Payment to Mobile Recharge,Mobile Recharge,2705.24,Card,debit,BNF006
+TXN00090,2026-06-04 10:12:00,Payment to Fuel Station,Fuel Station,2819.83,UPI,debit,BNF005
+TXN00091,2026-06-05 17:19:00,Payment to Fuel Station,Fuel Station,2728.58,Card,debit,BNF005
+TXN00092,2026-06-06 20:37:00,Payment to Food Court,Food Court,4002.3,Card,debit,BNF004
+TXN00093,2026-06-07 11:32:00,Payment to Mobile Recharge,Mobile Recharge,3154.73,Card,debit,BNF006
+TXN00094,2026-06-07 09:18:00,Payment to Mobile Recharge,Mobile Recharge,3423.12,Net Banking,debit,BNF006
+TXN00095,2026-06-08 12:14:00,Payment to Mobile Recharge,Mobile Recharge,5271.67,Card,debit,BNF006
+TXN00096,2026-06-09 17:54:00,Payment to Food Court,Food Court,5029.91,UPI,debit,BNF004
+TXN00097,2026-06-10 11:45:00,Payment to Fuel Station,Fuel Station,4571.85,UPI,debit,BNF005
+TXN00098,2026-06-10 11:09:00,Payment to Food Court,Food Court,4315.97,Card,debit,BNF004
+TXN00099,2026-06-10 21:49:00,Payment to Streaming Service,Streaming Service,5772.7,UPI,debit,BNF007
+TXN00100,2026-06-11 15:03:00,Payment to Fuel Station,Fuel Station,3689.53,Card,debit,BNF005
+TXN00101,2026-06-11 10:51:00,Payment to Food Court,Food Court,3100.48,Net Banking,debit,BNF004
+TXN00102,2026-06-11 17:20:00,Payment to Fuel Station,Fuel Station,6182.75,UPI,debit,BNF005
+TXN00103,2026-06-12 14:53:00,Payment to Fuel Station,Fuel Station,5908.53,UPI,debit,BNF005
+TXN00104,2026-06-12 19:55:00,Payment to City Utilities,City Utilities,3164.18,Card,debit,BNF002
+TXN00105,2026-06-12 11:53:00,Payment to Streaming Service,Streaming Service,4199.15,Net Banking,debit,BNF007
+TXN00106,2026-06-13 15:04:00,Payment to Landlord Co-op,Landlord Co-op,4681.01,Card,debit,BNF003
+TXN00107,2026-06-14 09:08:00,Payment to Fuel Station,Fuel Station,1107.77,UPI,debit,BNF005
+TXN00108,2026-06-14 10:45:00,Payment to Mobile Recharge,Mobile Recharge,1508.6,UPI,debit,BNF006
+TXN00109,2026-06-15 14:03:00,Payment to Food Court,Food Court,1463.4,UPI,debit,BNF004
+TXN00110,2026-06-15 20:37:00,Payment to Food Court,Food Court,6157.49,Card,debit,BNF004
+TXN00111,2026-06-15 20:36:00,Payment to Streaming Service,Streaming Service,2565.42,Card,debit,BNF007
+TXN00112,2026-06-17 21:26:00,Payment to Streaming Service,Streaming Service,3567.7,Net Banking,debit,BNF007
+TXN00113,2026-06-17 17:57:00,Payment to Streaming Service,Streaming Service,1550.42,Card,debit,BNF007
+TXN00114,2026-06-18 14:21:00,Payment to Grocery Mart,Grocery Mart,4397.35,UPI,debit,BNF001
+TXN00115,2026-06-18 10:53:00,Payment to Mobile Recharge,Mobile Recharge,3117.93,Card,debit,BNF006
+TXN00116,2026-06-20 17:42:00,Payment to Fuel Station,Fuel Station,322.1,UPI,debit,BNF005
+TXN00117,2026-06-20 21:29:00,Payment to City Utilities,City Utilities,1303.98,Card,debit,BNF002
+TXN00118,2026-06-21 13:21:00,Payment to Food Court,Food Court,4983.81,UPI,debit,BNF004
+TXN00119,2026-06-22 21:05:00,Payment to Landlord Co-op,Landlord Co-op,3136.45,Net Banking,debit,BNF003
+TXN00120,2026-06-22 13:14:00,Payment to Grocery Mart,Grocery Mart,4278.41,Card,debit,BNF001
+TXN00121,2026-06-25 10:15:00,Payment to Fuel Station,Fuel Station,951.5,Card,debit,BNF005
+TXN00122,2026-06-26 19:16:00,Payment to Food Court,Food Court,5019.8,Card,debit,BNF004
+TXN00123,2026-06-27 09:49:00,Payment to Mobile Recharge,Mobile Recharge,5352.56,Card,debit,BNF006
+TXN00124,2026-06-27 17:01:00,Payment to Grocery Mart,Grocery Mart,6048.43,Net Banking,debit,BNF001
+TXN00125,2026-06-27 14:25:00,Payment to Mobile Recharge,Mobile Recharge,6128.34,Card,debit,BNF006
+TXN00126,2026-06-28 18:15:00,Payment to Streaming Service,Streaming Service,797.07,Card,debit,BNF007
+TXN00127,2026-06-28 18:38:00,Payment to Streaming Service,Streaming Service,5265.1,Net Banking,debit,BNF007
+TXN00128,2026-06-28 08:22:00,Payment to Streaming Service,Streaming Service,3532.93,Card,debit,BNF007
+TXN00129,2026-06-29 08:54:00,Payment to Landlord Co-op,Landlord Co-op,2817.37,UPI,debit,BNF003
+TXN00130,2026-06-29 14:23:00,Payment to Grocery Mart,Grocery Mart,4185.97,UPI,debit,BNF001
+TXN00131,2026-06-29 10:27:00,Payment to Mobile Recharge,Mobile Recharge,1268.47,Net Banking,debit,BNF006
+TXN00132,2026-07-01 10:00:00,Salary Credit,Employer Pvt Ltd,65000.0,Net Banking,salary,BNF000
+TXN00133,2026-07-01 15:29:00,Payment to Streaming Service,Streaming Service,2915.9,Net Banking,debit,BNF007
+TXN00134,2026-07-01 13:54:00,Payment to Landlord Co-op,Landlord Co-op,1708.89,Card,debit,BNF003
+TXN00135,2026-07-01 15:15:00,Payment to Landlord Co-op,Landlord Co-op,4915.52,Net Banking,debit,BNF003
+TXN00136,2026-07-02 08:31:00,Payment to Landlord Co-op,Landlord Co-op,5553.55,Card,debit,BNF003
+TXN00137,2026-07-02 11:22:00,Payment to Food Court,Food Court,5216.24,Card,debit,BNF004
+TXN00138,2026-07-03 12:35:00,Payment to Mobile Recharge,Mobile Recharge,214.46,Card,debit,BNF006
+TXN00139,2026-07-03 11:46:00,Payment to Grocery Mart,Grocery Mart,2730.82,Net Banking,debit,BNF001
+TXN00140,2026-07-03 11:44:00,Payment to Streaming Service,Streaming Service,3173.19,UPI,debit,BNF007
+TXN00141,2026-07-03 11:00:00,Monthly Rent,Landlord Co-op,18000.0,Net Banking,debit,BNF003
+TXN00142,2026-07-04 12:14:00,Payment to Grocery Mart,Grocery Mart,2717.95,Card,debit,BNF001
+TXN00143,2026-07-05 15:35:00,Payment to Landlord Co-op,Landlord Co-op,3521.35,UPI,debit,BNF003
+TXN00144,2026-07-05 16:21:00,Payment to Mobile Recharge,Mobile Recharge,2384.0,UPI,debit,BNF006
+TXN00145,2026-07-05 12:16:00,Payment to Landlord Co-op,Landlord Co-op,1613.92,Card,debit,BNF003
+TXN00146,2026-07-06 20:44:00,Payment to Fuel Station,Fuel Station,1325.7,Card,debit,BNF005
+TXN00147,2026-07-06 15:17:00,Payment to Mobile Recharge,Mobile Recharge,4751.11,Net Banking,debit,BNF006
+TXN00148,2026-07-06 12:06:00,Payment to Fuel Station,Fuel Station,5437.19,Card,debit,BNF005
+TXN00149,2026-07-07 08:45:00,Payment to Landlord Co-op,Landlord Co-op,3541.76,Card,debit,BNF003
+TXN00150,2026-07-08 12:44:00,Payment to Fuel Station,Fuel Station,6144.97,UPI,debit,BNF005
+TXN00151,2026-07-09 12:30:00,Payment to Fuel Station,Fuel Station,3189.84,Card,debit,BNF005
+TXN00152,2026-07-10 21:30:00,Payment to Landlord Co-op,Landlord Co-op,874.45,Card,debit,BNF003
+TXN00153,2026-07-11 18:43:00,Payment to Fuel Station,Fuel Station,490.42,Card,debit,BNF005
+TXN00154,2026-07-14 16:48:00,Payment to Grocery Mart,Grocery Mart,2792.71,Net Banking,debit,BNF001
+TXN00155,2026-07-16 15:58:00,Payment to Food Court,Food Court,2961.28,Net Banking,debit,BNF004
+TXN00156,2026-07-16 12:36:00,Payment to Food Court,Food Court,4093.52,Net Banking,debit,BNF004
+TXN00157,2026-07-16 09:48:00,Payment to Mobile Recharge,Mobile Recharge,1469.45,Card,debit,BNF006
+TXN00158,2026-07-17 11:11:00,Payment to City Utilities,City Utilities,3655.15,Card,debit,BNF002
+TXN00159,2026-07-18 17:30:00,Payment to Mobile Recharge,Mobile Recharge,1999.5,Card,debit,BNF006
+TXN00160,2026-07-18 19:18:00,Payment to Landlord Co-op,Landlord Co-op,4613.97,UPI,debit,BNF003
+TXN00161,2026-07-19 20:50:00,Payment to Landlord Co-op,Landlord Co-op,4119.12,Card,debit,BNF003
+TXN00162,2026-07-20 18:09:00,Payment to City Utilities,City Utilities,5918.41,Card,debit,BNF002
+TXN00163,2026-07-20 08:10:00,Payment to Grocery Mart,Grocery Mart,5183.19,Net Banking,debit,BNF001
+TXN00164,2026-07-20 21:36:00,Payment to Mobile Recharge,Mobile Recharge,5999.57,UPI,debit,BNF006
+TXN00165,2026-07-21 19:25:00,Payment to Landlord Co-op,Landlord Co-op,6135.99,Net Banking,debit,BNF003
+TXN00166,2026-07-21 15:28:00,Payment to Fuel Station,Fuel Station,660.81,Card,debit,BNF005
+TXN00167,2026-07-21 19:20:00,Payment to Food Court,Food Court,3983.58,Card,debit,BNF004
+TXN00168,2026-07-22 21:36:00,Payment to Streaming Service,Streaming Service,3878.23,Card,debit,BNF007
+TXN00169,2026-07-22 18:52:00,Payment to Streaming Service,Streaming Service,1861.4,Card,debit,BNF007
+TXN00170,2026-07-22 20:11:00,Payment to Streaming Service,Streaming Service,3137.68,UPI,debit,BNF007
+TXN00171,2026-07-24 18:52:00,Payment to Food Court,Food Court,3272.46,Card,debit,BNF004
+TXN00172,2026-07-24 13:26:00,Payment to Food Court,Food Court,2266.51,Card,debit,BNF004
+TXN00173,2026-07-24 10:21:00,Payment to Streaming Service,Streaming Service,2763.95,UPI,debit,BNF007
+TXN00174,2026-07-25 20:35:00,Payment to Streaming Service,Streaming Service,383.03,Card,debit,BNF007
+TXN00175,2026-07-25 12:20:00,Payment to Landlord Co-op,Landlord Co-op,886.1,UPI,debit,BNF003
+TXN00176,2026-07-28 14:03:00,Payment to Food Court,Food Court,1341.15,Card,debit,BNF004
+TXN00177,2026-07-28 20:31:00,Payment to Fuel Station,Fuel Station,4121.35,Card,debit,BNF005
+TXN00178,2026-07-28 12:35:00,Payment to City Utilities,City Utilities,981.93,Card,debit,BNF002
+TXN00179,2026-07-29 09:01:00,Payment to Food Court,Food Court,6329.48,Net Banking,debit,BNF004
+TXN00180,2026-07-29 11:45:00,Payment to Streaming Service,Streaming Service,1155.7,Net Banking,debit,BNF007
+TXN00181,2026-07-29 16:26:00,Payment to Grocery Mart,Grocery Mart,741.88,Card,debit,BNF001
