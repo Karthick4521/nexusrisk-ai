@@ -1,5 +1,5 @@
 # NexusRisk AI
-
+🚀 **Live Demo:** [Open NexusRisk AI](https://nexusrisk-ai.onrender.com)
 **From transaction data to explainable investigation — with evidence at every step.**
 
 Hackathon Track: `PS06 — Banking: Transaction Risk Investigation Assistant`
